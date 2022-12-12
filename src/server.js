@@ -13,8 +13,8 @@ const schema = createSchema({
         location: String
     }
     type Query {
-        users: User
-        events: Event
+        users: [User]
+        events: [Event]
     }
   `,
 });
